@@ -18,7 +18,7 @@ Push to GitHub → connect repo in Netlify → it reads netlify.toml automatical
 Or drag /dist into netlify.com/drop.
 
 ### Cloudflare Pages
-Push to GitHub → connect in Cloudflare Pages → it reads wrangler.toml.
+Push to GitHub → connect in Cloudflare Pages → set build command to `npm run build` and output directory to `dist` in the dashboard.
 Or: `npm install -g wrangler && wrangler pages deploy dist`
 
 ### Self-host (nginx)
