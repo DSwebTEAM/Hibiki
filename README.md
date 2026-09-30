@@ -6,12 +6,12 @@
   <p><em>An anime companion AI — open source, private, and entirely yours.</em></p>
 
   <a href="https://hibiki-beta.netlify.app/">
-    <img src="https://img.shields.io/badge/Try%20it%20now-hibiki--beta.netlify.app-c96a84?style=for-the-badge&logo=netlify&logoColor=white" alt="Try HIBIKI"/>
+    <img 
+    <a href="https://hibiki-vh4.pages.dev/">
+    <img src="https://img.shields.io/badge/Try%20it%20now-hibiki--vh4.pages.dev-c96a84?style=for-the-badge&logo=cloudflarepages&logoColor=white" alt="Try HIBIKI"/>
   </a>
   <br/><br/>
-
-> the netlify account which we are hosting hibiki got suspended we are moving the project to vercel hosting ASAP.
-> 
+  
   ![React](https://img.shields.io/badge/React-Vite-61dafb?style=flat-square&logo=react)
   ![License](https://img.shields.io/badge/License-MIT-f4a0b4?style=flat-square)
   ![Privacy](https://img.shields.io/badge/Privacy-100%25%20local-40d080?style=flat-square)
@@ -128,11 +128,7 @@ Open `http://localhost:5173` in your browser.
 npm run build
 ```
 
-The `dist/` folder can be deployed to any static host — Netlify, Vercel, Cloudflare Pages, or your own server.
-
-**Netlify (recommended)**
-
-The repo includes a `netlify.toml` with pre-configured SPA routing. Connect the repo in your Netlify dashboard and it deploys automatically on every push.
+The `dist/` folder can be deployed to any static host — Netlify, Vercel, Cloudflare Pages, or your own 
 
 **Adding your API key**
 
